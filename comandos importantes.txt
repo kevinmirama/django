@@ -1,0 +1,9 @@
+-git init
+-git add .
+-git commit -m "Mensaje del commit"
+-git remote add origin https://github.com/kevinmirama/django.git
+git push -u origin master
+
+https://github.com/kevinmirama/django.git
+
+pat-na1-a5737562-642b-461a-a474-b73a830c6a1b

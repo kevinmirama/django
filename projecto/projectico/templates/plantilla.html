@@ -1,0 +1,8 @@
+<form method="POST" action="{% url 'buscar_actualizar_contacto' %}">
+    {% csrf_token %}
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre">
+    <input type="submit" value="Enviar">
+</form>
